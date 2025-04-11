@@ -1,0 +1,7 @@
+- name: Configuration Test Playbook
+  hosts: local
+  become: false
+  vars_files:
+    - group_vars/all.yml
+  roles:
+    - config_test

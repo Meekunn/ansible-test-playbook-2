@@ -1,0 +1,11 @@
+- name: Show domain name
+  ansible.builtin.debug:
+    msg: "Domain is set to: {{ domain }}"
+
+- name: Show admin password
+  ansible.builtin.debug:
+    msg: "Admin password is: {{ admin_password }}"
+
+- name: Show custom string
+  ansible.builtin.debug:
+    msg: "Custom string: {{ custom_string }}"

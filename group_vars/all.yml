@@ -1,0 +1,3 @@
+domain: "example.com"
+admin_password: "SuperSecret123!"
+custom_string: "AnsibleIsCool"
